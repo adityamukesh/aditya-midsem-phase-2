@@ -1,4 +1,4 @@
-const recipes = [
+export const recipes = [
   { id: 1, name: "Paneer Butter Masala", emoji: "🍛", cuisine: "Indian", type: "Veg", cookingTime: 40, difficulty: "Medium", ingredients: ["Paneer", "Butter", "Tomato", "Cream", "Garam Masala"], isFavourite: false },
   { id: 2, name: "Masala Maggi", emoji: "🍜", cuisine: "Indian", type: "Veg", cookingTime: 10, difficulty: "Easy", ingredients: ["Maggi", "Onion", "Tomato", "Green Chilli"], isFavourite: false },
   { id: 3, name: "Chicken Biryani", emoji: "🍗", cuisine: "Indian", type: "Non-Veg", cookingTime: 75, difficulty: "Hard", ingredients: ["Basmati Rice", "Chicken", "Curd", "Onion", "Biryani Masala", "Saffron"], isFavourite: false },
